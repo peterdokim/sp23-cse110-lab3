@@ -28,6 +28,32 @@ h2{
     margin-right: 5%;
     line-height: 200%;
 }
+#Date{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 400px;
+}
+#attendees{
+    margin: 15px 300px 20px 100px;
+}
+#agenda{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+#attendees{
+    padding: 150px 100px 200px 100px;
+}
+#agenda{
+    border-style: dashed;
+    border-radius: 5%;
+    border-color: rosybrown;
+    border-width: 1em;
+
+}
+
+
 
 
 
