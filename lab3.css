@@ -115,6 +115,35 @@ button:active{
 
 
 }
+* {
+    align-content:  first baseline;
+}
+h4[class=special]{
+    font-style:bold;
+}
+details,h2{
+    text-transform: capitalize;
+
+}
+ul li{
+    list-style-type: disc;
+}
+ul > li{
+    display: inline;
+}
+details ~ h2 {
+    font-size:10px;
+}
+h1 + h3{
+    margin-left: 20px;
+}
+p.lists-class{
+    font-weight: 200;
+}
+
+    
+
+
 
 
 
