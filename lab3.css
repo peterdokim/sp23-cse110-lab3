@@ -1,0 +1,35 @@
+/*My body color looks like cyan*/
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    color: navy;
+    margin-left: 650px;
+}
+h2{
+    color:blueviolet;
+    margin-right: 100m;
+}
+.navigations{
+    position: relative;
+    line-height: 2;
+}
+#Brainstorm{
+    background-color: pink;
+    padding:2%;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: auto;
+
+}
+.pomodoro{
+    position:relative;
+    margin-right: 5%;
+    line-height: 200%;
+}
+
+
+
+
+
