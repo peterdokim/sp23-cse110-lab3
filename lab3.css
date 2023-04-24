@@ -10,6 +10,8 @@ h1{
 h2{
     color:blueviolet;
     margin-right: 100m;
+    text-decoration: underline;
+    text-align: center;
 }
 .navigations{
     position: relative;
@@ -44,6 +46,7 @@ h2{
 }
 #attendees{
     padding: 150px 100px 200px 100px;
+    display:inline;
 }
 #agenda{
     border-style: dashed;
@@ -52,6 +55,72 @@ h2{
     border-width: 1em;
 
 }
+
+div{
+    display:inline-block;
+    
+}
+
+p{
+    position: relative;
+}
+img{
+    position: sticky;
+}
+button:hover{
+    color:blue;
+}
+button:active{
+    box-sizing:inherit;
+}
+@media screen and (max-width:1250px) {
+    video{
+        background-color: yellow;
+        
+    };
+}
+.container{
+    display : flex;
+    flex-direction: column-reverse;
+
+}
+.Meeting{
+    flex: 1;
+    flex-grow:2;
+}
+.Cactus{
+    flex-shrink:2;
+
+}
+.d3{
+    flex-flow: row;
+}
+
+.gridcontainer{
+    display:grid;
+    grid-template-columns: max-content;
+}
+.M1{
+    height: 100px;
+    grid-row-end: auto;
+}
+.M2{
+    grid-row : 3/4;
+    grid-area:auto;
+
+}
+.M3{
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
+
+
+}
+
+
+
+
+
+
 
 
 
